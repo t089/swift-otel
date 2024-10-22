@@ -41,6 +41,7 @@ let package = Package(
                 .product(name: "NIOConcurrencyHelpers", package: "swift-nio"),
                 .product(name: "ServiceLifecycle", package: "swift-service-lifecycle"),
                 .product(name: "Tracing", package: "swift-distributed-tracing"),
+                .product(name: "Instrumentation", package: "swift-distributed-tracing"), 
                 .product(name: "Atomics", package: "swift-atomics"),
                 .product(name: "CoreMetrics", package: "swift-metrics"),
                 .product(name: "W3CTraceContext", package: "swift-w3c-trace-context"),
